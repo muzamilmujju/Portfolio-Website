@@ -1,6 +1,6 @@
 # 💼 Md Muzamil Ahmad - Interactive Portfolio
 
-Welcome to my personal portfolio website! This project showcases my educational background, technical skills, projects, and certifications — all in a clean, responsive, and interactive interface built using **only HTML and CSS**.
+Welcome to my personal portfolio website! This project showcases my educational background, technical skills, projects, and certifications — all in a clean, responsive, and interactive interface built using ** HTML,CSS and JavaScript**.
 
 ## 📌 Features
 
@@ -8,7 +8,6 @@ Welcome to my personal portfolio website! This project showcases my educational 
 - Hover effects and clean responsive design
 - Accordion-style skill display with `<details>` tags
 - Project and contact links
-- No JavaScript or frameworks used
 
 ## 🌐 Live Demo
 
@@ -17,7 +16,8 @@ Welcome to my personal portfolio website! This project showcases my educational 
 ## 🛠️ Tech Stack
 
 - HTML5
-- CSS3
+- CSS3 
+- Javascript
 
 
 
