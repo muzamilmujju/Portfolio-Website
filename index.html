@@ -1,337 +1,204 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Md Muzamil Ahmad — CSE Data Science Graduate</title>
-  <meta name="description" content="Portfolio of Md Muzamil Ahmad — CSE Data Science Graduate from Hyderabad, India. Python Developer | Machine Learning Enthusiast." />
-  <meta name="keywords" content="Muzamil Ahmad, Data Science, Machine Learning, Python, Portfolio, Hyderabad, Telangana" />
-  <meta property="og:title" content="Md Muzamil Ahmad — Portfolio" />
-  <meta property="og:description" content="CSE Data Science Graduate | Python Developer | Machine Learning Enthusiast" />
+  <title>Md Muzamil Ahmad | Data Science Graduate</title>
+  <meta name="description" content="Portfolio of Md Muzamil Ahmad, fresher and CSE (Data Science) graduate from Hyderabad, looking for an entry-level opportunity." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:ital,wght@0,300;0,400;1,300&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-<!-- NAV -->
-<nav id="navbar">
-  <a href="#home" class="nav-logo">MA.</a>
-  <ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#projects">Projects</a></li>
-    <li><a href="#education">Education</a></li>
-    <li><a href="#certifications">Certs</a></li>
-    <li><a href="#interests">Interests</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-  <div class="nav-actions">
-    <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">&#127769;</button>
-    <a href="mailto:mujjumuzamil07@gmail.com" class="btn-primary" style="padding:.5rem 1.1rem;font-size:.8rem;">Hire Me</a>
-    <button class="hamburger" id="hamburger" aria-label="Open menu">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</nav>
-
-<div class="mobile-nav" id="mobileNav">
-  <a href="#about">About</a>
-  <a href="#skills">Skills</a>
-  <a href="#projects">Projects</a>
-  <a href="#education">Education</a>
-  <a href="#certifications">Certifications</a>
-  <a href="#interests">Interests</a>
-  <a href="#contact">Contact</a>
-</div>
-
-<!-- HERO -->
-<section id="home" class="hero">
-  <div class="hero-inner">
-    <div class="hero-badge">
-      <span class="badge-dot"></span>
-      Available for opportunities
-    </div>
-    <h1 class="hero-name">Md Muzamil <span>Ahmad</span></h1>
-    <div class="hero-typing">
-      <span id="typingText"></span><span class="cursor"></span>
-    </div>
-    <p class="hero-desc">
-      Passionate about building data-driven solutions and solving real-world problems
-      using machine learning and programming.
-    </p>
-    <div class="hero-cta">
-      <a href="#projects" class="btn-primary">View Projects</a>
-      <a href="#contact" class="btn-outline">Contact Me</a>
-      <a href="https://drive.google.com/file/d/1bS8CYYzjJ-YcniKmn354zhWLbsyteaI0/view?usp=drivesdk" class="btn-outline" download>&#11015; Download Resume</a>
-    </div>
-    <div class="hero-scroll">
-      <span>scroll</span>
-      <div class="scroll-line"></div>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a href="#top" class="logo">Muzamil Ahmad</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certificates</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-right">
+      <button id="themeBtn" class="icon-btn" aria-label="Toggle dark mode">🌙</button>
+      <button id="menuBtn" class="icon-btn menu-btn" aria-label="Open menu">☰</button>
     </div>
   </div>
-</section>
+</header>
 
-<!-- ABOUT -->
-<section id="about">
-  <div class="container">
-    <div class="about-grid reveal">
-      <div class="about-text">
-        <div class="section-label">About</div>
-        <h2 class="section-title">Who I am.</h2>
-        <p>Computer Science Engineering (Data Science) graduate with strong foundations in Python, data analysis, and machine learning. Skilled in problem-solving, data processing, and building predictive models.</p>
-        <p>Seeking an entry-level opportunity to contribute to innovative projects and grow as a software professional. Based in Hyderabad, Telangana, India.</p>
-        <div class="about-chips">
-          <span class="chip">&#128013; Python</span>
-          <span class="chip">&#129302; Machine Learning</span>
-          <span class="chip">&#128202; Data Science</span>
-          <span class="chip">&#128376; SQL / MySQL</span>
-          <span class="chip">&#9881;&#65039; C / C++</span>
-          <span class="chip">&#128205; Hyderabad, India</span>
-        </div>
-      </div>
-      <div class="about-stats">
-        <div class="stat-card"><div class="stat-num">8.29</div><div class="stat-label">B.Tech CGPA</div></div>
-        <div class="stat-card"><div class="stat-num">2+</div><div class="stat-label">Projects Shipped</div></div>
-        <div class="stat-card"><div class="stat-num">5+</div><div class="stat-label">Certifications</div></div>
-        <div class="stat-card"><div class="stat-num">&#8734;</div><div class="stat-label">Curiosity</div></div>
-      </div>
-    </div>
-  </div>
-</section>
+<main id="top">
 
-<!-- SKILLS -->
-<section id="skills">
-  <div class="container">
-    <div class="section-label">Skills</div>
-    <h2 class="section-title">What I work with.</h2>
-    <div class="skills-filter">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="programming">Programming</button>
-      <button class="filter-btn" data-filter="concepts">Core Concepts</button>
-      <button class="filter-btn" data-filter="libraries">Libraries</button>
-      <button class="filter-btn" data-filter="tools">Tools</button>
-      <button class="filter-btn" data-filter="soft">Soft Skills</button>
-    </div>
-    <div class="skills-grid reveal">
-      <div class="skill-category" data-cat="programming">
-        <h4>&#128013; Programming Languages</h4>
-        <div class="skill-row"><span class="skill-name">Python</span><div class="skill-bar"><div class="skill-bar-fill" data-w="90"></div></div><span class="skill-pct">90%</span></div>
-        <div class="skill-row"><span class="skill-name">C++</span><div class="skill-bar"><div class="skill-bar-fill" data-w="75"></div></div><span class="skill-pct">75%</span></div>
-        <div class="skill-row"><span class="skill-name">C</span><div class="skill-bar"><div class="skill-bar-fill" data-w="72"></div></div><span class="skill-pct">72%</span></div>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <img src="muzamil.jpg.jpg" alt="Md Muzamil Ahmad" class="avatar" />
+      <div class="hero-text">
+      <p class="eyebrow">Hi, I'm</p>
+      <h1>Md Muzamil Ahmad</h1>
+      <p class="role">Fresher &middot; CSE (Data Science) graduate &middot; Hyderabad, India</p>
+      <p class="lead">
+        I'm a fresher who likes turning messy data into something useful. I'm looking for my first
+        opportunity, an entry-level role where I can build real projects and learn from people who know more than I do.
+      </p>
+      <div class="actions">
+        <a href="#projects" class="btn btn-solid">See my projects</a>
+        <a href="https://drive.google.com/file/d/1bS8CYYzjJ-YcniKmn354zhWLbsyteaI0/view?usp=drivesdk" target="_blank" rel="noopener" class="btn btn-line">Resume</a>
+        <a href="#contact" class="btn btn-line">Get in touch</a>
       </div>
-      <div class="skill-category" data-cat="concepts">
-        <h4>&#129504; Core Concepts</h4>
-        <div class="skill-row"><span class="skill-name">Machine Learning</span><div class="skill-bar"><div class="skill-bar-fill" data-w="82"></div></div><span class="skill-pct">82%</span></div>
-        <div class="skill-row"><span class="skill-name">Data Structures &amp; Algorithms</span><div class="skill-bar"><div class="skill-bar-fill" data-w="75"></div></div><span class="skill-pct">75%</span></div>
-        <div class="skill-row"><span class="skill-name">OOP</span><div class="skill-bar"><div class="skill-bar-fill" data-w="80"></div></div><span class="skill-pct">80%</span></div>
-        <div class="skill-row"><span class="skill-name">DBMS / SQL</span><div class="skill-bar"><div class="skill-bar-fill" data-w="73"></div></div><span class="skill-pct">73%</span></div>
-      </div>
-      <div class="skill-category" data-cat="libraries">
-        <h4>&#128230; Libraries &amp; Frameworks</h4>
-        <div class="skill-row"><span class="skill-name">Pandas</span><div class="skill-bar"><div class="skill-bar-fill" data-w="88"></div></div><span class="skill-pct">88%</span></div>
-        <div class="skill-row"><span class="skill-name">NumPy</span><div class="skill-bar"><div class="skill-bar-fill" data-w="85"></div></div><span class="skill-pct">85%</span></div>
-        <div class="skill-row"><span class="skill-name">Scikit-learn</span><div class="skill-bar"><div class="skill-bar-fill" data-w="80"></div></div><span class="skill-pct">80%</span></div>
-        <div class="skill-row"><span class="skill-name">Matplotlib / Seaborn</span><div class="skill-bar"><div class="skill-bar-fill" data-w="78"></div></div><span class="skill-pct">78%</span></div>
-      </div>
-      <div class="skill-category" data-cat="tools">
-        <h4>&#128295; Developer Tools</h4>
-        <div class="skill-row"><span class="skill-name">Google Colab</span><div class="skill-bar"><div class="skill-bar-fill" data-w="92"></div></div><span class="skill-pct">92%</span></div>
-        <div class="skill-row"><span class="skill-name">VS Code</span><div class="skill-bar"><div class="skill-bar-fill" data-w="90"></div></div><span class="skill-pct">90%</span></div>
-        <div class="skill-row"><span class="skill-name">MySQL</span><div class="skill-bar"><div class="skill-bar-fill" data-w="73"></div></div><span class="skill-pct">73%</span></div>
-        <div class="skill-row"><span class="skill-name">GitHub</span><div class="skill-bar"><div class="skill-bar-fill" data-w="78"></div></div><span class="skill-pct">78%</span></div>
-      </div>
-      <div class="skill-category" data-cat="soft">
-        <h4>&#129309; Soft Skills</h4>
-        <div class="skill-row"><span class="skill-name">Problem Solving</span><div class="skill-bar"><div class="skill-bar-fill" data-w="93"></div></div><span class="skill-pct">93%</span></div>
-        <div class="skill-row"><span class="skill-name">Teamwork</span><div class="skill-bar"><div class="skill-bar-fill" data-w="88"></div></div><span class="skill-pct">88%</span></div>
-        <div class="skill-row"><span class="skill-name">Communication</span><div class="skill-bar"><div class="skill-bar-fill" data-w="85"></div></div><span class="skill-pct">85%</span></div>
-        <div class="skill-row"><span class="skill-name">Leadership</span><div class="skill-bar"><div class="skill-bar-fill" data-w="80"></div></div><span class="skill-pct">80%</span></div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- PROJECTS -->
-<section id="projects">
-  <div class="container">
-    <div class="section-label">Work</div>
-    <h2 class="section-title">Things I've built.</h2>
-    <div class="project-filters">
-      <button class="filter-btn active" data-pfilter="all">All</button>
-      <button class="filter-btn" data-pfilter="ml">Machine Learning</button>
-      <button class="filter-btn" data-pfilter="eda">Data Analysis</button>
-    </div>
-    <div class="projects-grid reveal">
-      <div class="project-card" data-ptag="ml">
-        <span class="project-tag">&#129302; Machine Learning</span>
-        <h3>Chronic Kidney Disease Prediction</h3>
-        <p>Built ML models (KNN, SVM, XGBoost) to support early CKD detection. Applied preprocessing, feature scaling, and PCA. Evaluated using accuracy, precision, recall, and F1-score for robust clinical insights.</p>
-        <div class="project-tech">
-          <span class="tech-pill">Python</span>
-          <span class="tech-pill">Scikit-learn</span>
-          <span class="tech-pill">XGBoost</span>
-          <span class="tech-pill">Pandas</span>
-          <span class="tech-pill">PCA</span>
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="wrap">
+      <h2>About me</h2>
+      <div class="about">
+        <div>
+          <p>I recently finished my B.Tech in Computer Science Engineering (Data Science). Along the way I got comfortable with Python, data analysis and machine learning, and I enjoy the part where a pile of numbers starts telling a story.</p>
+          <p>Outside of coding I cook, try new recipes (some work, some don't) and watch a lot of tech videos to keep up with what's changing.</p>
         </div>
-        <div class="project-links">
-          <a href="https://github.com/muzamilmujju/Chronic-Kidney-Disease-Prediction" target="_blank" class="project-link">
-            <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-            View on GitHub
-          </a>
-        </div>
+        <ul class="facts">
+          <li><strong>8.29</strong><span>B.Tech CGPA</span></li>
+          <li><strong>2</strong><span>ML / data projects</span></li>
+          <li><strong>5</strong><span>Certifications</span></li>
+        </ul>
       </div>
-      <div class="project-card" data-ptag="eda">
-        <span class="project-tag" style="background:var(--glow2);color:var(--accent2);border-color:var(--accent2);">&#128202; Data Analysis</span>
-        <h3>COVID-19 Data Analysis (India)</h3>
-        <p>Performed comprehensive exploratory data analysis on India's COVID-19 dataset. Cleaned and transformed data with Pandas &amp; NumPy, and built visualizations (Matplotlib, Seaborn) to track spread, recovery rates, and vaccination trends.</p>
-        <div class="project-tech">
-          <span class="tech-pill">Python</span>
-          <span class="tech-pill">Pandas</span>
-          <span class="tech-pill">NumPy</span>
-          <span class="tech-pill">Matplotlib</span>
-          <span class="tech-pill">Seaborn</span>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="alt">
+    <div class="wrap">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill-group">
+          <h3>Languages</h3>
+          <ul class="tags"><li>Python</li><li>C++</li><li>C</li><li>SQL</li></ul>
         </div>
-        <div class="project-links">
-          <a href="https://github.com/muzamilmujju/Covid-19-Data-Analysis" target="_blank" class="project-link">
-            <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
-            View on GitHub
-          </a>
+        <div class="skill-group">
+          <h3>Data &amp; ML</h3>
+          <ul class="tags"><li>Pandas</li><li>NumPy</li><li>Scikit-learn</li><li>XGBoost</li><li>Matplotlib</li><li>Seaborn</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Fundamentals</h3>
+          <ul class="tags"><li>Data Structures &amp; Algorithms</li><li>OOP</li><li>DBMS</li></ul>
+        </div>
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <ul class="tags"><li>Google Colab</li><li>VS Code</li><li>MySQL</li><li>Git &amp; GitHub</li></ul>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- EDUCATION -->
-<section id="education">
-  <div class="container">
-    <div class="section-label">Education</div>
-    <h2 class="section-title">My journey.</h2>
-    <div class="timeline reveal">
-      <div class="timeline-item">
-        <div class="tl-period">2021 — 2025</div>
-        <div class="tl-school">CMR Engineering College</div>
-        <div class="tl-degree">B.Tech — Computer Science Engineering (Data Science)</div>
-        <span class="tl-grade">CGPA: 8.29</span>
-      </div>
-      <div class="timeline-item">
-        <div class="tl-period">2019 — 2021</div>
-        <div class="tl-school">Jagruthi Junior College</div>
-        <div class="tl-degree">Intermediate (MPC)</div>
-        <span class="tl-grade">83.6%</span>
-      </div>
-      <div class="timeline-item">
-        <div class="tl-period">2018 — 2019</div>
-        <div class="tl-school">Tiny Toys High School</div>
-        <div class="tl-degree">SSC</div>
-        <span class="tl-grade">CGPA: 8.7</span>
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="wrap">
+      <h2>Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <span class="label">Machine Learning</span>
+          <h3>Chronic Kidney Disease Prediction</h3>
+          <p>Trained KNN, SVM and XGBoost models to help flag chronic kidney disease early. Handled preprocessing, feature scaling and PCA, then compared models using accuracy, precision, recall and F1-score.</p>
+          <p class="stack">Python &middot; Scikit-learn &middot; XGBoost &middot; Pandas &middot; PCA</p>
+          <a href="https://github.com/muzamilmujju/Chronic-Kidney-Disease-Prediction" target="_blank" rel="noopener" class="link">View on GitHub &rarr;</a>
+        </article>
+
+        <article class="card">
+          <span class="label">Data Analysis</span>
+          <h3>COVID-19 Data Analysis (India)</h3>
+          <p>Explored India's COVID-19 data: cleaned it, transformed it, and built charts to follow how the virus spread, how recoveries changed, and how vaccination progressed.</p>
+          <p class="stack">Python &middot; Pandas &middot; NumPy &middot; Matplotlib &middot; Seaborn</p>
+          <a href="https://github.com/muzamilmujju/Covid-19-Data-Analysis" target="_blank" rel="noopener" class="link">View on GitHub &rarr;</a>
+        </article>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- CERTIFICATIONS -->
-<section id="certifications">
-  <div class="container">
-    <div class="section-label">Certifications</div>
-    <h2 class="section-title">Credentials.</h2>
-    <div class="cert-grid reveal">
-      <div class="cert-card"><div class="cert-icon">&#128013;</div><div class="cert-info"><h4>Crash Course on Python</h4><span>Google</span></div></div>
-      <div class="cert-card"><div class="cert-icon">&#128202;</div><div class="cert-info"><h4>Data Analytics Virtual Internship</h4><span>EduSkills</span></div></div>
-      <div class="cert-card"><div class="cert-icon">&#9881;&#65039;</div><div class="cert-info"><h4>C++ Certificate</h4><span>Great Learning Academy</span></div></div>
-      <div class="cert-card"><div class="cert-icon">&#129302;</div><div class="cert-info"><h4>Generative AI &amp; Data Science Internship</h4><span>IBM SkillsBuild</span></div></div>
-      <div class="cert-card"><div class="cert-icon">&#127760;</div><div class="cert-info"><h4>C, PHP, MySQL, HTML, CSS</h4><span>Spoken Tutorial — IIT Bombay</span></div></div>
+  <!-- EDUCATION -->
+  <section id="education" class="alt">
+    <div class="wrap">
+      <h2>Education</h2>
+      <ul class="timeline">
+        <li>
+          <span class="when">2021 – 2025</span>
+          <h3>CMR Engineering College</h3>
+          <p>B.Tech, Computer Science Engineering (Data Science) &middot; CGPA 8.29</p>
+        </li>
+        <li>
+          <span class="when">2019 – 2021</span>
+          <h3>Jagruthi Junior College</h3>
+          <p>Intermediate (MPC) &middot; 83.6%</p>
+        </li>
+        <li>
+          <span class="when">2018 – 2019</span>
+          <h3>Tiny Toys High School</h3>
+          <p>SSC &middot; CGPA 8.7</p>
+        </li>
+      </ul>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- INTERESTS -->
-<section id="interests">
-  <div class="container">
-    <div class="section-label">Interests</div>
-    <h2 class="section-title">What drives me.</h2>
-    <div class="interests-grid reveal">
-      <div class="interest-card"><div class="interest-icon">&#129302;</div><p>Exploring Machine Learning &amp; Data Science</p></div>
-      <div class="interest-card"><div class="interest-icon">&#128187;</div><p>Solving coding challenges &amp; algorithm problems</p></div>
-      <div class="interest-card"><div class="interest-icon">&#127859;</div><p>Cooking &amp; experimenting with new recipes</p></div>
-      <div class="interest-card"><div class="interest-icon">&#128250;</div><p>Watching tech content &amp; staying up to date</p></div>
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="wrap">
+      <h2>Certifications</h2>
+      <ul class="certs">
+        <li><strong>Crash Course on Python</strong><span>Google</span></li>
+        <li><strong>Data Analytics Virtual Internship</strong><span>EduSkills</span></li>
+        <li><strong>C++ Certificate</strong><span>Great Learning Academy</span></li>
+        <li><strong>Generative AI &amp; Data Science Internship</strong><span>IBM SkillsBuild</span></li>
+        <li><strong>C, PHP, MySQL, HTML, CSS</strong><span>Spoken Tutorial, IIT Bombay</span></li>
+      </ul>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- GITHUB -->
-<section id="github">
-  <div class="container github-section reveal">
-    <div class="section-label">GitHub</div>
-    <h2 class="section-title">My coding activity.</h2>
-    <p style="text-align:center;margin-top:-2rem;margin-bottom:0;color:var(--text-dim);font-size:.9rem;">Consistent project development and problem solving on GitHub</p>
-    <div class="github-stats-grid">
-      <img src="https://github-readme-stats.vercel.app/api?username=muzamilmujju&show_icons=true&theme=tokyonight&hide_border=true&bg_color=16161f&title_color=7c6af7&icon_color=3ecfb2&text_color=e8e8f0" alt="GitHub Stats" />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=muzamilmujju&layout=compact&theme=tokyonight&hide_border=true&bg_color=16161f&title_color=7c6af7&text_color=e8e8f0" alt="Top Languages" />
-      <img src="https://streak-stats.demolab.com?user=muzamilmujju&theme=tokyonight&hide_border=true&background=16161f&ring=7c6af7&fire=3ecfb2&currStreakLabel=e8e8f0" alt="GitHub Streak" />
-    </div>
-    <div class="github-btn-wrap">
-      <a href="https://github.com/muzamilmujju" target="_blank" class="github-profile-btn">View GitHub Profile &#8599;</a>
-    </div>
-  </div>
-</section>
-
-<!-- CONTACT -->
-<section id="contact">
-  <div class="container">
-    <div class="section-label">Contact</div>
-    <h2 class="section-title">Let's connect.</h2>
-    <div class="contact-grid reveal">
-      <div class="contact-info">
-        <h3>Open to opportunities</h3>
-        <p>Whether you have a project in mind, a job opening, or just want to talk data science — I'd love to hear from you. Based in Hyderabad, available remotely.</p>
-        <div class="contact-links">
-          <a href="mailto:mujjumuzamil07@gmail.com" class="contact-link">
-            <div class="contact-link-icon">&#9993;&#65039;</div>
-            <div><div>mujjumuzamil07@gmail.com</div><span>Email</span></div>
-          </a>
-          <a href="tel:+918886195114" class="contact-link">
-            <div class="contact-link-icon">&#128222;</div>
-            <div><div>+91 8886195114</div><span>Phone &middot; Hyderabad, Telangana</span></div>
-          </a>
-          <a href="https://linkedin.com/in/md-muzamil-ahmad" target="_blank" class="contact-link">
-            <div class="contact-link-icon">&#128188;</div>
-            <div><div>md-muzamil-ahmad</div><span>LinkedIn</span></div>
-          </a>
-          <a href="https://github.com/muzamilmujju" target="_blank" class="contact-link">
-            <div class="contact-link-icon">&#128057;</div>
-            <div><div>muzamilmujju</div><span>GitHub</span></div>
-          </a>
+  <!-- CONTACT -->
+  <section id="contact" class="alt">
+    <div class="wrap">
+      <h2>Get in touch</h2>
+      <div class="contact">
+        <div>
+          <p>Have an opening, a project idea, or just want to talk data? Send me a message. I'm based in Hyderabad and happy to work remotely.</p>
+          <ul class="contact-list">
+            <li><span>Email</span><a href="mailto:mujjumuzamil07@gmail.com">mujjumuzamil07@gmail.com</a></li>
+            <li><span>Phone</span><a href="tel:+918886195114">+91 88861 95114</a></li>
+            <li><span>LinkedIn</span><a href="https://linkedin.com/in/md-muzamil-ahmad" target="_blank" rel="noopener">md-muzamil-ahmad</a></li>
+            <li><span>GitHub</span><a href="https://github.com/muzamilmujju" target="_blank" rel="noopener">muzamilmujju</a></li>
+          </ul>
         </div>
+
+        <form id="contactForm" class="form">
+          <label>Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <label>Email
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>Message
+            <textarea name="message" rows="5" placeholder="What's on your mind?" required></textarea>
+          </label>
+          <button type="submit" class="btn btn-solid">Send message</button>
+          <p class="form-note">This opens your email app with the message ready to send.</p>
+        </form>
       </div>
-      <form class="contact-form" onsubmit="handleForm(event)">
-        <div class="form-group">
-          <label>Name</label>
-          <input type="text" placeholder="Your name" required />
-        </div>
-        <div class="form-group">
-          <label>Email</label>
-          <input type="email" placeholder="your@email.com" required />
-        </div>
-        <div class="form-group">
-          <label>Message</label>
-          <textarea placeholder="What's on your mind?"></textarea>
-        </div>
-        <button type="submit" class="btn-primary" style="align-self:flex-start">Send Message &#8594;</button>
-      </form>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- FOOTER -->
+</main>
+
 <footer>
-  <p>&copy; 2025 Md Muzamil Ahmad. Built with care.</p>
-  <div class="footer-links">
-    <a href="https://github.com/muzamilmujju" target="_blank">GitHub</a>
-    <a href="https://linkedin.com/in/md-muzamil-ahmad" target="_blank">LinkedIn</a>
-    <a href="mailto:mujjumuzamil07@gmail.com">Email</a>
+  <div class="wrap foot">
+    <p>&copy; <span id="year">2026</span> Md Muzamil Ahmad</p>
+    <p>
+      <a href="https://github.com/muzamilmujju" target="_blank" rel="noopener">GitHub</a> &middot;
+      <a href="https://linkedin.com/in/md-muzamil-ahmad" target="_blank" rel="noopener">LinkedIn</a>
+    </p>
   </div>
 </footer>
 
